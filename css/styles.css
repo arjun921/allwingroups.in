@@ -308,8 +308,15 @@ header {
     font-size: 0.875rem;
     color: var(--primary-color);
     font-style: italic;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.25rem;
     font-weight: 500;
+}
+
+.company-description {
+    font-size: 0.85rem;
+    color: var(--text-light);
+    line-height: 1.5;
+    margin-top: 0;
 }
 
 .company-card p {
