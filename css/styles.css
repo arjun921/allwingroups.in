@@ -443,6 +443,18 @@ header {
     color: var(--text-light);
 }
 
+/* Contact links */
+.contact-item a.contact-link {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contact-item a.contact-link:hover,
+.contact-item a.contact-link:focus {
+    text-decoration: underline;
+}
+
 /* Footer */
 footer {
     background-color: #3d3d3d;
